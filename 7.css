@@ -354,7 +354,8 @@
 
         }
 			.im1 img{
-				height:10%;
+				height: 500px;
+    width: 280px;
 			}
 			 .bar li:hover{
 			background-color: #e6e6e6;
