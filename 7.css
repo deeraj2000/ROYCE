@@ -353,6 +353,9 @@
         	margin-right: 20%;
 
         }
+			.im1 img{
+				height:10%;
+			}
 			 .bar li:hover{
 			background-color: #e6e6e6;
 			color: black;
