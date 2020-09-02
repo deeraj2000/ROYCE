@@ -38,7 +38,8 @@
 		<label>Messege:</label><br>
 		
 		<input type="text" name="Message" placeholder='&#xf075; Enter your Messege' class="placeicon" id="mes"><br>
-		<button onclick="this.on()">Send messege</button>
+		<button onclick="on()">Send messege</button>
+		<p id="demo"></p>
 	</form>
 <div class="accounts">
 	<h2>My accounts</h2>
@@ -54,7 +55,7 @@
 	<script src="https://kit.fontawesome.com/yourcode.js"></script>
 	<script>
 		function on(){
-			document.write("Your response is recorded");
+			document.getElementById("demo").innerHTML = "Your response is recorded";
 		}
 	</script>
 </body>
