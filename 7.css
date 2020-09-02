@@ -2,6 +2,9 @@
 	       font-family:fontawesome;
 	       padding-right:4%;
         }
+        form{
+		border:1% solid black;
+}
         button:hover{
        	color: #e6e6e6;
        	background-color: black;
@@ -157,6 +160,9 @@
 		}
 
 		@media only screen and (min-width: 320px) and (max-width: 767px){
+			        form{
+		border:1% solid black;
+}
 			.placeicon{
 	       font-family:fontawesome;
 				 padding-right:4%;
@@ -309,6 +315,9 @@
 		}
 		}
 		@media only screen and (min-width: 768px) and (max-width: 1023px){
+			        form{
+		border:1% solid black;
+}
 			.placeicon{
 	       font-family:fontawesome;
 				 padding-right:4%;
